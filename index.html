@@ -1,0 +1,147 @@
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+<div class="container">
+  <h2>Southwestern Vacations </h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="Images/banner.jpg" alt="Image" style="width:100%;">
+        <div class="header-text">
+          <div class="col-md-12 text-center">
+              <h2>
+                <span><strong>Arizona package</strong></span>
+              </h2>
+          </div>
+          
+        </div>
+        <div class="readmore">
+          <a href="readmore.html"><button class="readmore-btn">Read More</button></a>
+        </div>
+
+      </div>
+
+      <div class="item">
+        <img src="Images/banner.jpg" alt="Image" style="width:100%;">
+        <div class="header-text">
+          <div class="col-md-12 text-center">
+              <h2>
+                <span><strong>Arizona package</strong></span>
+              </h2>
+          </div>
+          
+        </div>
+        <div class="readmore">
+          <a href="readmore.html"><button class="readmore-btn">Read More</button></a>
+        </div>
+      </div>
+      <div class="item">
+        <img src="Images/banner.jpg" alt="Image" style="width:100%;">
+        <div class="header-text">
+          <div class="col-md-12 text-center">
+              <h2>
+                <span><strong>Arizona package</strong></span>
+              </h2>
+          </div>
+          
+        </div>
+        <div class="readmore">
+          <a href="readmore.html"><button class="readmore-btn">Read More</button></a>
+        </div>
+      </div>
+    
+    </div>
+    <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  </div>
+  
+  <div class="row m-b-2rem">
+    <div class="col-md-10 col-xs-12">
+      <h4>To the Contrary</h4>
+      <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+      <ul class="list">
+        <li>Discovered the undoubtable source. </li>
+        <li>Lorem Ipsum comes from sections 1.10.32 and 1.10.33</li>
+      </ul>
+      <h4>Treatise</h4>
+      <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+      <ul class="list">
+        <li>Discovered the undoubtable source. </li>
+        <li>Lorem Ipsum comes from sections 1.10.32 and 1.10.33</li>
+      </ul>
+    </div>
+    <div class="col-md-2 text-right">
+      <button type="button" class="btn-contact btn-lg" data-toggle="modal" data-target="#contact">Contact Us</button>
+
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+<div id="contact" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Contact Us</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal" action="#">
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="name">name:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="name">
+            </div>
+          </div>
+        
+          <div class="form-group">
+            <label class="control-label col-sm-2"  for="email">Email:</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="email">
+            </div>
+            
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2 text-left" for="name">Comments:</label>
+            <div class="col-sm-12">
+              <textarea ></textarea>
+            </div>
+          </div>
+          
+          <div class="form-group"> 
+            <div class="col-md-12">
+              <div class="text-left">
+                  <button type="button" class="btn btn-default left-btn" data-dismiss="modal">Cancel</button>
+                </div>
+            <div class="text-right">
+              <button type="submit" class="btn btn-default">Submit</button>
+            </div>
+          </div>
+          </div>
+          
+        </form>
+      </div>
+     
+    </div>
+
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,147 @@
+h2,h4{
+    color: #a94442;
+}
+.header-text {
+    position:absolute;
+  transform:translateY(-50%);
+  top:50%;
+  margin: 0 auto;
+  width:100%;
+  overflow:hidden;
+}
+.header-text h2{ 
+  color:#a3c6ee;
+  cursor:pointer;
+  transition:left 1.4s, opacity .5s ease;
+}
+.readmore{
+    text-align: right;
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+}
+.readmore-btn{
+    background: linear-gradient(#fdbb25, #ec873f);
+    color: #333;
+    height: 30px;
+    border: none;
+}
+.btn-default{
+    background-color: #ec873f;
+    border-radius: 7px;
+    color: #ffffff;
+    border:1px solid #7f8e9d;
+    font-weight: bold;
+}
+.text-right{
+    text-align: right;
+}
+.btn-contact{
+    background-color: #ec873f;
+    border-radius: 7px;
+    color: #ffffff;
+    border: none;
+    
+
+}
+ol.carousel-indicators {
+    position: relative;
+    bottom: 0px;
+}
+.carousel-indicators .active{
+    background-color: #a94442;
+    border: 1px solid #333;
+}
+.carousel-indicators li{
+    background-color: rgba(234, 152, 94, 0.65);
+    border: 1px solid #333;
+}
+.list li{
+    padding-left: 1.5em;
+    position: relative;
+    list-style: none;;
+}
+.list li::after {
+    content: '';
+    height: .4em;
+    width: .4em;
+    background: #000000;
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    top: .45em;
+    left: 0;
+  }
+  .modal-dialog {
+    width: 270px;
+    margin: 30px auto;
+  }
+  .modal-content{
+    border-radius: 35px;
+    background: #e6e6e6;
+  }
+  .form-control {
+    border: 1px solid #7f8e9d;
+    background: #d9d9d9;
+    border-radius: 0px;
+}
+textarea{
+    width: 100%;
+    background: #d9d9d9;
+    border: 1px solid #7f8e9d
+}
+.left-btn{
+    float: left;
+}
+.modal-body{
+    padding: 10px 15px 0px 15px
+}
+.modal-header {
+    padding: 10px 15px 0px 0px;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.close{
+    opacity: 1;
+}
+.modal-backdrop{
+    background-color: #ffffff;
+}
+.modal-open .modal {
+    height: fit-content;
+}
+.m-b-2rem{
+    margin-bottom: 2rem;
+}
+.sub-title{
+    color: #486484;
+}
+.flex{
+    
+}
+.content{
+    padding-left: 20px;
+}
+@media (min-width: 768px){
+    .modal {
+        position: absolute;
+        top: 40rem;
+        right: 0;
+        bottom: 0;
+        left: 50rem;
+    }
+}
+@media (max-width: 767px){
+    .modal {
+        position: absolute;
+        top: 25rem;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .readmore{
+        bottom: 0.5rem;
+        right: 0.5rem;
+    }
+}
