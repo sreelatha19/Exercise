@@ -126,6 +126,9 @@ textarea{
 .content{
     padding-left: 20px;
 }
+section {
+    float: left;
+}
 .modal-open{
     overflow: scroll;
 }
