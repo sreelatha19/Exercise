@@ -117,11 +117,17 @@ textarea{
 .sub-title{
     color: #486484;
 }
-.flex{
-    
+.control-label{
+    display: flex;
+}
+.red{
+    color:red;
 }
 .content{
     padding-left: 20px;
+}
+.modal-open{
+    overflow: scroll;
 }
 @media (min-width: 768px){
     .modal {
@@ -129,7 +135,7 @@ textarea{
         top: 40rem;
         right: 0;
         bottom: 0;
-        left: 50rem;
+        left: 40rem;
     }
 }
 @media (max-width: 767px){
